@@ -3,7 +3,7 @@ from distutils.core import setup
 
 setup(
     name = "python-faker",
-    version = "0.1.0",
+    version = "0.1.1",
     url = 'http://github.com/threadsafelabs/python-faker',
     license = 'BSD',
     description = "Generate placeholder data.",

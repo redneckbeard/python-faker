@@ -24,7 +24,8 @@ et molestiae non recusandae itaque earum rerum hic tenetur a sapiente delectus
 ut aut reiciendis voluptatibus maiores doloribus asperiores repellat""".split()
 
 def words(num = 3):
-    return random.shuffle(_words)[:3]
+    random.shuffle(_words)
+    return _words[:3]
 
 def sentence(word_count=4):
     return ' '.join(words(word_count + random.randint(0, 6))).capitalize() + '.'
