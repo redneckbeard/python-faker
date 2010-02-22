@@ -1,9 +1,0 @@
-def contact_info():
-    n = faker.name.name()
-    print faker.name.name()
-    print faker.address.street_address(include_secondary=True)
-    print '%s, %s %s' % (faker.address.city(), faker.address.us_state_abbr(), faker.address.zip_code())
-    print faker.phone_number.phone_number()
-    print faker.internet.email(n)
-    print '%s - "%s"' % (faker.company.name(), faker.company.catch_phrase())
-    print 'http://' + faker.internet.domain_name()
