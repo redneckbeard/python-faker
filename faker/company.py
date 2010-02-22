@@ -12,7 +12,7 @@ def name():
     return random.choice(formats)()
     
 def suffix():
-    return random.choice(['Inc', 'and\ Sons', 'LLC', 'Group'])
+    return random.choice(['Inc', 'and Sons', 'LLC', 'Group'])
       
 # Generate a buzzword-laden catch phrase.
 # Wordlist from http://www.1728.com/buzzword.htm
