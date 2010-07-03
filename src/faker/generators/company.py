@@ -1,6 +1,6 @@
 import random
 
-from faker import name as fake_name
+from faker.generators import name as fake_name
 
 formats = [
   lambda: ' '.join([fake_name.last_name(), suffix()]),

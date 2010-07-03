@@ -1,7 +1,7 @@
 import random
 
-from faker.name import first_name, last_name
-from faker.utils import numerify, letterify, bothify
+from faker.generators.name import first_name, last_name
+from faker.generators.utils import numerify, letterify, bothify
 
 
 def zip_code():

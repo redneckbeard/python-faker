@@ -25,13 +25,13 @@ ut aut reiciendis voluptatibus maiores doloribus asperiores repellat""".split()
 
 def words(num = 3):
     random.shuffle(_words)
-    return _words[:3]
+    return _words[:num]
 
 def sentence(word_count=4):
     return ' '.join(words(word_count + random.randint(0, 6))).capitalize() + '.'
 
 def sentences(sentence_count=3):
-    return [sentence() for i in range(3)]
+    return [sentence() for i in range(num)]
 
 def paragraph(sentence_count=3):
     return '  '.join(sentences(sentence_count))

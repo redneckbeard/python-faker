@@ -1,8 +1,8 @@
 import random
 import re
 
-from faker import company
-from faker import name
+from faker.generators import company
+from faker.generators import name
 
 def email(n=None):
     return '@'.join([user_name(n), domain_name()])

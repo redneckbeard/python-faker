@@ -1,6 +1,6 @@
 import random
 
-from faker.utils import numerify
+from faker.generators.utils import numerify
 
 formats = [
     '###-###-####',
