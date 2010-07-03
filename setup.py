@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name = "python-faker",
-    version = "0.2.2",
+    version = "0.2.3",
     url = 'http://github.com/threadsafelabs/python-faker',
     license = 'BSD',
     description = "Generate placeholder data.",
