@@ -29,3 +29,6 @@ def domain_word():
 
 def domain_suffix():
     return random.choice('co.uk com us uk ca biz info name'.split())
+
+def ip_address():
+    return '%d.%d.%d.%d' % tuple(random.randint(0,255) for i in range(4))
