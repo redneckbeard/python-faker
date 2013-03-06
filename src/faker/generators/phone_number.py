@@ -27,3 +27,9 @@ formats = [
 
 def phone_number():
     return numerify(random.choice(formats))
+
+def uk_mobile_number():
+    return numerify(random.choice(["074## ######", "075## ######", "076## ######", "077## ######", "078## ######", "079## ######"]))
+
+def uk_geographic_number():
+    return numerify(random.choice(["02# #### ####", "01### ######"]))
