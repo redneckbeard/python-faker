@@ -1,7 +1,9 @@
-from generators import address
-from generators import company
-from generators import internet
-from generators import lorem
-from generators import name
-from generators import phone_number
-from generators import date
+from __future__ import absolute_import
+
+from faker.generators import address
+from faker.generators import company
+from faker.generators import internet
+from faker.generators import lorem
+from faker.generators import name
+from faker.generators import phone_number
+from faker.generators import date
